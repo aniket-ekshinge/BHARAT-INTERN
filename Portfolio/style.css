@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("img/background.jpg");
+    color: white;
+  }
+  
+  header {
+    background-color: #376594;
+    color: white;
+    padding: 30px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 30px;
+  }
+
+  header h2 {
+    font-size: 35px;
+  }
+
+  span {
+    color: #f9004d;
+     
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Section styles */
+  .section {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .about {
+    background-color: #376594;
+    color: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+  .about img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+  }
+
+  .skills-list {
+    list-style: none;
+    padding: 10px;
+    background-color: #376594;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+  
+  .skills-list li {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  .project p {
+    text-align: justify;
+    margin-top: 15px;
+  }
+
+  .project img {
+    max-width: 30%;
+    height: 40;
+    width: 40;
+    margin-top: 20px;
+  }
+
+  .resume {
+    background-color: #376594;
+    color: white;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .resume-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+.resume-link:hover {
+    background-color: #376594;
+  }
+  
+  
+  .project {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #376594;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .contact {
+    background-color: #376594;
+    color: white;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ca89d0;
+    color: #fff;
+  }
+  
+  
